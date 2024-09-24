@@ -1,0 +1,8 @@
+curl -X POST http://127.0.0.1:8000/register -H "Content-Type: application/json" -d '{"username": "mica", "password": "tixi"}'
+
+curl -X POST http://127.0.0.1:8000/login -H "Content-Type: application/json" -d '{"username": "mica", "password": "tixi"}'
+
+curl -X GET http://127.0.0.1:8000/protected -H 'Authorization: Bearer my_value'
+
+
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiZXhwIjoxNzI3MTcxOTkzfQ.Zbpe_QaigTX0SqVMnrRBgJvNmLx3Q9JYopIWh0hG1CU

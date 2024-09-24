@@ -1,0 +1,8 @@
+[default.databases]
+my_pg_db_name = { url = "postgres://postgres:123456789@localhost/redis_super" }
+redis_name_uri = { url = "redis://127.0.0.1:6379/" }
+
+
+[release.databases]
+my_pg_db_name = { url = "postgres://postgres:123456789@localhost/redis_super" }
+redis_name_uri = { url = "redis://127.0.0.1:6379/" }
